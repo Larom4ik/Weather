@@ -167,7 +167,6 @@ class MainWindow(QWidget):
                                 """)
     
     # ====================инициализация кнопки карты====================================
-    
         self.maps = QPushButton('Map', self)
         self.maps.setGeometry(205, 105, 130, 50)
         self.maps.setFont(QFont("Microsoft Sans Serif", 10))
